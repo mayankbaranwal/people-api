@@ -3,7 +3,7 @@
 Hello 👋🏻,
 
 This is a REST API with that simulates a simple people record database. Post following the setup
-instructions, you may want to play around with the API's in either swagger or with the provided
+instructions, you may want to play around with the APIs in either swagger or with the provided
 postman collections in `/postman` folder. Enjoy and happy testing.
 
 ## Tech stack
@@ -23,7 +23,10 @@ Uses Flask, Connexion, Swagger and SQL Alchemy
 - Execute `python server.py`
 - To open swagger navigate to `http://0.0.0.0:5000/api/ui/`
 
-> On a windows machine, you may want to replace the host as `127.0.0.1` in above URL
+> On a Windows machine, you may want to replace the host as `127.0.0.1` in above URL
+> which makes url : http://127.0.0.1:5000/api/ui/
+> When I have to import the 'postman' folder of the project in the POSTMAN Application, then in the environment 
+> section, set the Initial and Current Value URLs as - http://127.0.0.1:5000/
 
 ## Project structure
 
